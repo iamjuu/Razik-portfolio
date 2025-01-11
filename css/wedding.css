@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: #000000; */
+    background-image: url('../pic/pexels--rahulshah--1546027.jpg');
+    margin: 0;
+  }
+
+  .card {
+    max-width: 400px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(32, 32, 32, 0.1);
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease-in-out 0.2s, transform 0.3s ease-in-out 0.2s;
+  }
+
+  .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 255, 0.5);
+    transform: scale(1.05);
+  }
+  .card img {
+    width: 100%;
+  }
+
+  .card-content {
+    padding: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
+
+  .card-text {
+    color: #4a5568;
+    font-size: 1rem;
+  }
+
+  .card-tags {
+    padding: 1.5rem;
+    padding-top: 0;
+  }
+
+  .card-tag {
+    display: inline-block;
+    background-color: #edf2f7;
+    border-radius: 9999px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
